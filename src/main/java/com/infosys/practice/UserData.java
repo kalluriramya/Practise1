@@ -2,6 +2,7 @@ package com.infosys.practice;
 
 public class UserData {
 
+	private Integer id;
 	private String uname;
 	private int salary;
 	private String address;
@@ -23,6 +24,14 @@ public class UserData {
 	}
 	public void setAddress(String address) {
 		this.address = address;
+	}
+	
+	
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
 	}
 	@Override
 	public String toString() {
